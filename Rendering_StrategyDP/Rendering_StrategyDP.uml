@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Rendering_StrategyDP</OriginalElement>
+  <nodes>
+    <node x="147.0" y="80.0">Rendering_StrategyDP.QuickRenderer</node>
+    <node x="-175.0" y="-2.0">Rendering_StrategyDP.RenderingSystem</node>
+    <node x="0.0" y="230.0">Rendering_StrategyDP.Client</node>
+    <node x="0.0" y="80.0">Rendering_StrategyDP.DetailedRendered</node>
+    <node x="59.25" y="0.0">Rendering_StrategyDP.WorldObjectRenderer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Rendering_StrategyDP.Client" target="Rendering_StrategyDP.RenderingSystem">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Rendering_StrategyDP.RenderingSystem" target="Rendering_StrategyDP.WorldObjectRenderer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Rendering_StrategyDP.QuickRenderer" target="Rendering_StrategyDP.WorldObjectRenderer">
+      <point x="0.0" y="-15.0" />
+      <point x="203.0" y="55.0" />
+      <point x="170.25" y="55.0" />
+      <point x="37.0" y="15.0" />
+    </edge>
+    <edge source="Rendering_StrategyDP.Client" target="Rendering_StrategyDP.DetailedRendered">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Rendering_StrategyDP.DetailedRendered" target="Rendering_StrategyDP.WorldObjectRenderer">
+      <point x="0.0" y="-15.0" />
+      <point x="63.5" y="55.0" />
+      <point x="96.25" y="55.0" />
+      <point x="-37.0" y="15.0" />
+    </edge>
+    <edge source="Rendering_StrategyDP.Client" target="Rendering_StrategyDP.QuickRenderer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="129.5" y="130.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
