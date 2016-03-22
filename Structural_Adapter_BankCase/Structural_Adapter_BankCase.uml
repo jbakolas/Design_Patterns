@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Structural_Adapter_BankCase</OriginalElement>
+  <nodes>
+    <node x="216.0" y="385.0">Structural_Adapter_BankCase.StandardAccount</node>
+    <node x="0.0" y="385.0">Structural_Adapter_BankCase.PlatinumAccount</node>
+    <node x="177.5" y="158.5">Structural_Adapter_BankCase.AbstractAccount</node>
+    <node x="431.0" y="362.0">Structural_Adapter_BankCase.AccountAdapter</node>
+    <node x="359.6458333333333" y="510.0">Structural_Adapter_BankCase.ClientClass</node>
+    <node x="215.5" y="0.0">Structural_Adapter_BankCase.Account</node>
+    <node x="562.5052083333333" y="147.0">Structural_Adapter_BankCase.OffshoreAccount</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Structural_Adapter_BankCase.PlatinumAccount" target="Structural_Adapter_BankCase.AbstractAccount">
+      <point x="0.0" y="-26.0" />
+      <point x="98.0" y="337.0" />
+      <point x="222.83333333333331" y="337.0" />
+      <point x="-90.66666666666669" y="71.0" />
+    </edge>
+    <edge source="Structural_Adapter_BankCase.ClientClass" target="Structural_Adapter_BankCase.PlatinumAccount">
+      <point x="-58.125" y="-26.0" />
+      <point x="379.0208333333333" y="490.0" />
+      <point x="98.0" y="490.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="Structural_Adapter_BankCase.ClientClass" target="Structural_Adapter_BankCase.AccountAdapter">
+      <point x="19.375" y="-26.0" />
+      <point x="456.5208333333333" y="480.0" />
+      <point x="570.0" y="480.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="Structural_Adapter_BankCase.StandardAccount" target="Structural_Adapter_BankCase.AbstractAccount">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="Structural_Adapter_BankCase.AccountAdapter" target="Structural_Adapter_BankCase.AbstractAccount">
+      <point x="-69.5" y="-49.0" />
+      <point x="500.5" y="337.0" />
+      <point x="404.1666666666667" y="337.0" />
+      <point x="90.66666666666669" y="71.0" />
+    </edge>
+    <edge source="Structural_Adapter_BankCase.AbstractAccount" target="Structural_Adapter_BankCase.Account">
+      <point x="0.0" y="-71.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="Structural_Adapter_BankCase.AccountAdapter" target="Structural_Adapter_BankCase.OffshoreAccount">
+      <point x="69.5" y="-49.0" />
+      <point x="639.5" y="337.0" />
+      <point x="624.5052083333333" y="337.0" />
+      <point x="-62.0" y="82.5" />
+    </edge>
+    <edge source="Structural_Adapter_BankCase.ClientClass" target="Structural_Adapter_BankCase.StandardAccount">
+      <point x="-19.375" y="-26.0" />
+      <point x="417.7708333333333" y="480.0" />
+      <point x="313.5" y="480.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="Structural_Adapter_BankCase.ClientClass" target="Structural_Adapter_BankCase.OffshoreAccount">
+      <point x="58.125" y="-26.0" />
+      <point x="495.2708333333333" y="490.0" />
+      <point x="726.5052083333333" y="490.0" />
+      <point x="726.5052083333333" y="337.0" />
+      <point x="748.5052083333333" y="337.0" />
+      <point x="62.0" y="82.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.761168384879725" x="405.5" y="333.55079006772013" />
+  <SelectedNodes>
+    <node>Structural_Adapter_BankCase.Account</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
